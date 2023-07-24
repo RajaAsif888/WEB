@@ -490,6 +490,9 @@ section {
 
 /* media query for 564 */
 @media screen and (max-width:564px) {
+  .containers{
+        height: 58em;
+  }
   .navbar {
     width: 102vw;
   }
@@ -514,23 +517,23 @@ section {
   }
 
   section {
-    height: 76em;
+    height: 90em;
   }
 
   .card {
-    height: 11em;
-    width: 19em;
+       height: 11em;
+    width: 16em;
     text-align: center;
   }
 
   .shodow img {
-    width: 17em;
-    height: 16em;
+   width: 16em;
+    height: 14em;
   }
 
   .shodow {
     width: auto;
-    height: 16em;
+height: 14.6em; 
   }
 
   .viewbu {
@@ -538,7 +541,6 @@ section {
   }
 
   .worktogether {
-    width: 100vw;
     font-size: 20px;
   }
 
